@@ -12,3 +12,13 @@ header nav {
 	height: 60px;
 	background-color: #fff;
 }
+header nav ul {
+	float: left;
+}
+header nav ul li{
+	list-style: none;
+}
+header nav ul li a{
+	font: arial, 16px, #111;
+	line-height: 63px;
+}
