@@ -46,6 +46,8 @@ header .nav-login form input{
 	margin-rigth: 10px; 
 	border: none;
 	background-color: #ccc;
-        font: sans-serif, 14px, #111;
+        font-family: sans-serif;
+	font-size: 14px;
+	color: #111;
 	line-height: 30px;
 }
