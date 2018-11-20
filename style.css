@@ -3,9 +3,12 @@
 	width: 1000px;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	background-color: #ccc;
-	text-decoration: none;
 }
 
 header nav {
@@ -16,11 +19,12 @@ header nav {
 }
 header nav ul {
 	float: left;
-	
+		
 }
 header nav ul li{
 	float: left;
 	list-style: none;
+	
 }
 header nav ul li a{
 	font: arial, 16px, #111;
