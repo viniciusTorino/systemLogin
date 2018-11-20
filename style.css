@@ -28,7 +28,7 @@ header nav ul li{
 }
 header nav ul li a{
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #111;
 	line-height: 63px;
 }
@@ -36,12 +36,12 @@ header .nav-login {
 	float:right;
 }
 header .nav-login form {
-        float:right;
+        float:left;
 	padding-top: 15px;
 }
 
 header .nav-login form input{
-        float:right;
+        float:left;
        	width: 140px;
 	height: 30px;
 	padding: 0px 10px;
