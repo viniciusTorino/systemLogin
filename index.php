@@ -23,7 +23,10 @@
 			</div>
 		</nav>
 	</header>
-	<section>
+	<section class="main-container">
+		<div class="main_wrapper">
+			<h2>Home</h2>
+		</div>
 	</section>
 </body>
 </html>
