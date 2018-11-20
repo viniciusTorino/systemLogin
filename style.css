@@ -27,7 +27,9 @@ header nav ul li{
 	
 }
 header nav ul li a{
-	font: sans-serif, 16px, #111;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #111;
 	line-height: 63px;
 }
 header .nav-login {
