@@ -8,7 +8,7 @@
 <body>
 	<header>
 		<nav>
-			<div class "main-wrapper">
+			<div class="main-wrapper">
 				<ul>
 				    <li><a href="index.php">Home</a></li>
 				</ul>
