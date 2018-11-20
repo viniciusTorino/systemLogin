@@ -1,0 +1,14 @@
+.main-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+body {
+	background-color: #ccc;
+}
+
+header nav {
+	width: 100px;
+	height: 60px;
+	background-color: #fff;
+}
