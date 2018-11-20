@@ -11,7 +11,7 @@ header nav {
 	width: 100px;
 	height: 60px;
 	background-color: #fff;
-	
+	text-decoration: none;	
 }
 header nav ul {
 	float: left;
