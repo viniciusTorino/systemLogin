@@ -18,9 +18,7 @@ $user_password = mysqli_real_escape_string($connection, $_POST['password']);
 //Check for empty fields
 if( empty($first_name) || empty($last_name) || empty($user_email)
 		      ||  empty($user_uid) || empty($user_password)  ) {
-
-	header("Location: ../signup.php?signup=empty");
-	exit();
+	header("Location: ../signup.php?signup=empty"); exit();
 }
 //checking wheater our character are valid
 // preg_match is some  sort equal find of python 
@@ -32,5 +30,10 @@ if( !(preg_match("/^[a-zA-Z]*$", $first_name ) ||
 //Checking  if the email is valid
 // function >>  filter_var() << 
 if( !(filter_var($email, FILTER_VALIDATE_EMAIL)) ) { header("Location: ../signup.php?signup=invalidEmail"); exit(); }
+
+//cheacking  if the username has already been taken 
+if( mysqli_num_rows( mysqli_query($connection, "SELECT * FROM users WHERE user_uid = '$user_uid' ") ) > 0) {
+	header("Location: ../signup.php?signup=userTaken"); exit();
+}
 
 
