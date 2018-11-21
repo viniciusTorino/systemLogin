@@ -18,7 +18,7 @@
 						<input type="password" name="password" placeholder="password">
 						 <button type="submit" name="submit">Login</button>
 					</form>
-					<a href="sigup.php">Sign Up</a>
+					<a href="signup.php">Sign Up</a>
 				</div>
 			</div>
 		</nav>
