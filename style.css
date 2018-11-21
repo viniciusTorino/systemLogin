@@ -63,7 +63,8 @@ header .nav-login form button{
 }
 
 header .nav-login form button:hover{
-        background-color:#ccc;  
+        background-color:#ccc;
+	color: f3f3f3;  
 }
 
 header .nav-login a{
@@ -91,5 +92,42 @@ header .nav-login a{
 	color: #111;
 	line-height: 63px;
 	text-align: center;
+}
+
+/*sigup.php*/
+
+.signup-form {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 30px;
+	
+}
+
+.signup-form input {
+        width: 90%;
+        height: 40px;
+        padding: 0px 5%;
+	margin-buttom: 4px; 
+        border: none;
+        background-color: #fff;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #111;
+        line-height: 40px;
+}
+.signup-form buttom {
+        display: block;
+        width: 30%;
+        height: 40px;
+        border: none;
+        background-color: #f3f3f3;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #111;
+        cursor: pointer; 
+}
+.signup-form buttom:hover{
+        background-color: #111;
+	color: #f3f3f3;
 }
 
