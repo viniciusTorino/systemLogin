@@ -72,6 +72,7 @@ header .nav-login a{
 	height: 15px;
 	border: none;
 	float: left;
+	background-color: #fff; 
         font-family: sans-serif;
         font-size: 16px;
         color: #111;
@@ -79,5 +80,16 @@ header .nav-login a{
 	cursor: pointer;
 }
 
+.main-container {
+	padding:40px;
+}
 
+.main-container h2 {
+        padding-top: 40px;
+	font-family :sans-serif;
+	font-size: 40px;
+	color: #111;
+	line-height: 63px;
+	text-align: center;
+}
 
