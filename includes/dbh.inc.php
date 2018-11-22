@@ -5,4 +5,7 @@ $dbUserName = "root";
 $dbPassword = "";
 $dbName = "loginSystem";
 
-$connection = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName); 
+/* I must install and understand xampp to solve this 
+   $connection = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName); 
+/*
+?>
