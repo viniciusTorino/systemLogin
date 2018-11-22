@@ -45,3 +45,4 @@ $hashed = password_hash($user_password, PASSWORD_DEFALT);
 //now we are going to  INSERT INTO our TABLE
 $sql = "INSERT INTO users(first_name, last_name, user_email, user_uid, user_password) VALUES('$first_name', '$last_name', '$user_email', '$user_uid','$hashed');";
 mysqli_query($connection, $sql);
+header("Location: ../signup.php?signup=sucess"); exit();
