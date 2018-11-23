@@ -13,7 +13,7 @@
 				    <li><a href="index.php">Home</a></li>
 				</ul>
 				<div class="nav-login">
-					<form action="" method="post">
+					<form action="includes/login.php" method="post">
 						<input type="text" name="uid" placeholder="Username/email">
 						<input type="password" name="password" placeholder="password">
 						 <button type="submit" name="submit">Login</button>
