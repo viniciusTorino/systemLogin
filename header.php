@@ -1,4 +1,4 @@
-<!doctype html>
+-<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -14,8 +14,8 @@
 				</ul>
 				<div class="nav-login">
 					<form action="includes/login.php" method="post">
-						<input type="text" name="uid" placeholder="Username/email">
-						<input type="password" name="password" placeholder="password">
+						<input type="text" name="user_uid" placeholder="Username/Email" required>
+						<input type="password" name="user_password" placeholder="Password" required>
 						 <button type="submit" name="submit">Login</button>
 					</form>
 					<a href="signup.php">Sign Up</a>
