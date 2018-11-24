@@ -5,7 +5,7 @@ if( !(isset($_POST['submit'])) ){
 	exit();
 }
 
-include_once 'dbh.inc.php';
+include 'dbh.inc.php';
 
 //Defining my variables
 $first_name = mysqli_real_escape_string($connection, $_POST['first_name']);
